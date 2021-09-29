@@ -1,0 +1,153 @@
+@media (max-width: 1150px){
+  section {
+    padding: 0 5%;
+  }
+  .laptop-wrapper {
+    margin-top: 200px;
+    & .left-side {
+      top: -110px;
+      left: 50%;
+      transform: translateX(-50%);    }
+  }
+}
+
+@media (max-width: 1000px){
+  .nav {
+    & .nav__menu {
+      display: none;
+    }
+    & .burger-menu {
+      display: flex;
+    }
+  }
+  .middle__content {
+    flex-basis: 75%;
+  }
+}
+
+@media (max-width: 880px){
+  .welcome__section {
+    flex-direction: column-reverse;
+    padding-top: 0;
+    padding-bottom: 90px;
+
+    & .welcome__right {
+      margin-bottom: 10px;
+    }
+    & .welcome__left {
+      text-align: center;
+      & p {
+        max-width: initial;
+      }
+    }
+  }
+  .middle__section {
+    flex-direction: column;
+    & .middle__content {
+      width: 100%;
+      text-align: center;
+      & h1 {
+        font-size: 40px;
+      }
+      & h3 {
+        font-size: 19px;
+      }
+    }
+    & .middle__img-holder {
+      width: 50%;
+    }
+  }
+  .center__section {
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    & .center__content {
+      width: 100%;
+      text-align: center;
+      & h1 {
+        font-size: 40px;
+      }
+      & h3 {
+        font-size: 19px;
+      }
+    }
+    & .center__img-holder {
+      width: 50%;
+    }
+  }
+  .short__section__wrapper {
+    width: 100%;
+  }
+  .card {
+    flex-direction: column;
+    & .card__wrap {
+      margin-bottom: 50px;
+    }
+  }
+  .slider-wrapper {
+    transform: scale(0.75);
+  }
+  .creativity {
+    & h3 {
+      font-size: 15px;
+    }
+  }
+  .laptop-content {
+    & h1 {
+      font-size: 13px;
+    }
+    & p {
+      font-size: 11px;
+    }
+    & img {
+      width: 100px;
+    }
+    & button {
+      display: none;
+    }
+    & p:last-of-type {
+      display: none;
+    }
+  }
+  .laptop-content-mobile {
+    display: block;
+  }
+  .start__section {
+    flex-direction: column;
+    & h3 {
+      margin-bottom: 15px;
+      white-space: normal;
+      text-align: center;
+    }
+    & button {
+      margin: 0;
+    }
+  }
+  .form__wrapper {
+    flex-direction: column;
+    & .form__desc {
+      margin-bottom: 60px;
+      text-align: center;
+    }
+    & .form__form {
+      width: 100%;
+    }
+    & .form__form label input {
+      width: 100%;
+      background-color: white;
+      border: 1px solid #e5e0f8;
+      font-size: 18px;
+    }
+    & .form__form label button {
+      background-color: transparent;
+    }
+  }
+}
+
+@media (max-width: 770px){
+  .about-section {
+    display: none;
+  }
+  .nav__image {
+    width: 200px;
+  }
+}
