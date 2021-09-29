@@ -1,6 +1,6 @@
 # ModernPage
 
-I have used HTML/CSS/SASS/BEM and JavaScript for this Project.
+I have used HTML/SASS/BEM and JavaScript for this Project.
 
 
 NOT FINISHED!
