@@ -36,7 +36,7 @@ function moveSliderRight() {
   } else {
     slideIndex++;
   }
-  calculateLeftPosition()
+  calculateLeftPosition() 
   calculateDotVisibility()
 };
 
