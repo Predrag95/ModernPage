@@ -1,6 +1,6 @@
 import imagesDataImport from './images.js';
 
-const sliderArrowLeft = document.querySelector('.slider__arrow--left');
+const sliderArrowLeft = document.querySelector('.slider__arrow--left'); 
 const sliderArrowRight = document.querySelector('.slider__arrow--right');
 const slider = document.querySelector('.slider__inner');
 const dotsHolder = document.querySelector('.slider__dots');
